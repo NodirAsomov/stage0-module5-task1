@@ -12,7 +12,23 @@ public class ArrayTasks {
      */
     public String[] seasonsArray() {
 
-    }
+        String[] seasons = new String[4];
+        seasons[0] = " ";
+        seasons[1] = "winter";
+        seasons[2] = "spring";
+        seasons[3] = "summer";
+        seasons[4] = "autumn";
+        //System.out.println(seasons);
+        for (int i=1;i<4;i++){
+            System.out.println(seasons[i]);
+        }
+
+
+
+
+
+
+
 
     /**
      * Generate an int[] array of consecutive positive integers
@@ -24,9 +40,45 @@ public class ArrayTasks {
      * length = 3  -> [1, 2, 3]
      * length = 5  -> [1, 2, 3, 4, 5]
      */
-    public int[] generateNumbers(int length) {
 
-    }
+
+
+    public  int[] generateNumbers(int length){
+
+
+             int [] intArr= {1,2,3,4,5,6};
+             int lenth =intArr[length];
+            for (int i : intArr) {
+                for ( i = 1; i <=5; i++) {
+                    //System.out.print();
+                    System.out.print("[");
+                    for (int j = 1; j <=i; j++) {
+                        System.out.print(j+",");
+                    }
+                    System.out.print("]");
+                    System.out.println();
+                }
+            }}
+    };
+
+       /* int[] intArr = {1,2,3,4,5,6};
+        for (int num : intArr) {
+            System.out.print("[");
+            for(int i=0;i<num;i++){
+                System.out.print(num+",");
+
+            }
+            System.out.print("]");
+            System.out.println();
+        }*/
+
+
+
+
+
+
+
+
 
     /**
      * Find the sum of all elements of the int[] array.
@@ -38,7 +90,7 @@ public class ArrayTasks {
      */
     public int totalSum(int[] arr) {
 
-    }
+        return 0;}
 
     /**
      * Return the index of the first occurrence of number in the arr array.
@@ -51,7 +103,7 @@ public class ArrayTasks {
      */
     public int findIndexOfNumber(int[] arr, int number) {
 
-    }
+    return 0;}
 
     /**
      * Return the new String[] array obtained from the arr array
@@ -64,7 +116,7 @@ public class ArrayTasks {
      */
     public String[] reverseArray(String[] arr) {
 
-    }
+        return null; }
 
     /**
      * Return new int[] array obtained from arr int[] array
@@ -79,7 +131,7 @@ public class ArrayTasks {
      */
     public int[] getOnlyPositiveNumbers(int[] arr) {
 
-    }
+        return null;}
 
     /**
      * Return a sorted, ragged, two-dimensional int[][] array following these rules:
@@ -91,7 +143,15 @@ public class ArrayTasks {
      * arr = [[3, 1, 2,], [3,2]] -> [[2, 3], [1, 2, 3]]
      * arr = [[5, 4], [7]]       -> [[7], [4, 5]]
      */
-    public int[][] sortRaggedArray(int[][] arr) {
+    int[][] jagged = {
+            {5,10,2},
+            {4,8,12,25},
+            {3,2,1,4},
+            {100,2,0}
+    };
+    public int[][] sortRaggedArray(int [][] jagged) {
 
-    }
-}
+
+
+        return null; }}
+
