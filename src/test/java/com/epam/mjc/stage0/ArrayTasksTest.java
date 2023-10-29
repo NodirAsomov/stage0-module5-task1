@@ -78,7 +78,7 @@ public class ArrayTasksTest {
     @ParameterizedTest
     @MethodSource("findIndexOfNumberTestProvider")
     public void findIndexOfNumberTest(int[] arr, int number, int expectedIndex) {
-        assertEquals(expectedIndex, arrayTasks.findIndexOfNumber(arr, number,number),
+        assertEquals(expectedIndex, arrayTasks.findIndexOfNumber(arr, number),
                 "I think, something went wrong with finding index implementation");
     }
 
