@@ -77,7 +77,7 @@ public class ArrayTasks {
             index++;
         }
         if(!numberInArr) {
-            index = -1;
+             index = -1;
         }
         return index;
     }
